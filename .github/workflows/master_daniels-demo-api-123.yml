@@ -1,3 +1,4 @@
+# triggering pipeline
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
@@ -52,4 +53,5 @@ jobs:
           app-name: 'daniels-demo-api-123'
           slot-name: 'Production'
           package: .
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B160298737940FC890CFC56A6E201DB }}
