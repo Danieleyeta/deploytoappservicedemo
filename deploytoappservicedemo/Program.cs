@@ -1,4 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 // 1. A nice visual landing page for the root URL (/)
@@ -42,12 +42,15 @@ app.MapGet("/", () => Results.Content(@"
     </head>
     <body>
         <div class='card'>
-            <h1>?? Azure CI/CD Demo</h1>
+            <h1>🚀 Azure CI/CD Demo</h1>
+            <h2> Successfully Deployed!</h2>
+            <h1>🚀 Azure CI/CD Demo</h1>
+            <h2> Successfully Deployed new!</h2>
             <p>Welcome to Daniel's automated Web API!</p>
             <div class='badge'>Status: Live in Production</div>
             <p style='margin-top: 25px; font-size: 0.9em; color: #666;'>
                 View the raw JSON data: <br/>
-                ?? <a href='/api/status'>/api/status</a>
+                👉 <a href='/api/status'>/api/status</a>
             </p>
         </div>
     </body>
