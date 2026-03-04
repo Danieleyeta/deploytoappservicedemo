@@ -44,8 +44,7 @@ app.MapGet("/", () => Results.Content(@"
         <div class='card'>
             <h1>🚀 Azure CI/CD Demo</h1>
             <h2> Successfully Deployed!</h2>
-            <h1>🚀 Azure CI/CD Demo</h1>
-            <h2> Successfully Deployed new!</h2>
+            <h2> welcome to knowledge cutoff 2024-06</h2>
             <p>Welcome to Daniel's automated Web API!</p>
             <div class='badge'>Status: Live in Production</div>
             <p style='margin-top: 25px; font-size: 0.9em; color: #666;'>
