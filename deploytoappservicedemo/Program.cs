@@ -225,7 +225,7 @@ app.MapGet("/", () => Results.Content("""
 <nav>
   <a class="nav-brand" href="/">
     <span class="dot"></span>
-    daniel.api
+    kss.api
   </a>
   <ul class="nav-links">
     <li><a href="/" class="active">Home</a></li>
